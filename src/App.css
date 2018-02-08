@@ -1,0 +1,85 @@
+.app-title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  border-bottom: 5px solid transparent;
+  transition: 0.4s all;
+  display: inline-block;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.app-title:hover {
+  border-bottom: 5px solid #eee;
+  animation-name: pulse;
+}
+
+.coin-form {
+  max-width: 960px;
+  text-align: left;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coin-form select {
+  color: #111;
+}
+
+.coin-form label {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.currency-buttons button {
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.coin-form .currency-buttons {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.footer {
+  max-width: 960px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.footer a {
+  color: #eee;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+
+@keyframes pulse{
+  0% {
+    transform: scaleX(1);
+  }
+
+  25% {
+    transform: scaleX(1.005);
+  }
+
+  50% {
+    transform: scaleX(1);
+  }
+
+  75% {
+    transform: scaleX(1.01);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+
