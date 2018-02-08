@@ -2,7 +2,7 @@
 
 Quick React "app" that lists top cryptocurrencies.
 
-[Codepen DEMO](https://codepen.io/marko-hologram/pen/WMRExb)
+[Heroku DEMO](https://crypto-look.herokuapp.com/)
 
 ---
 
