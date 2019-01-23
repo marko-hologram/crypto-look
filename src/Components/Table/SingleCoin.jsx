@@ -15,7 +15,7 @@ const SingleCoin = (props) => {
       <td>{props.index + 1}</td>
       <td>
         <a
-          href={`https://coinmarketcap.com/currencies/bitcoin-cash/${props.coinID}`}
+          href={`https://coinmarketcap.com/currencies/${props.coinID}`}
           target="_blank"
           title={`Check full ${props.coinName} data.`}
         >
