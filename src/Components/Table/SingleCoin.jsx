@@ -17,6 +17,7 @@ const SingleCoin = (props) => {
         <a
           href={`https://coinmarketcap.com/currencies/${props.coinID}`}
           target="_blank"
+          rel="noopener noreferrer"
           title={`Check full ${props.coinName} data.`}
         >
           {props.coinName}
